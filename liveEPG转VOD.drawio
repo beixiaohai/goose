@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T09:35:00.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-7r7ZB-ZdPdXPw5pQ39Q" version="20.3.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-07T09:35:30.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="m4vN3i7dUsdAsLJKT8Yz" version="20.3.7" type="github" pages="3">
   <diagram name="1.播放源方式配置及查询" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -73,13 +73,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U7cklLRFnM9qiptKr7Qg-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XYJXyiHoGVRGUh7J4csI-1">
-          <mxGeometry x="54" y="764" width="10" height="40" as="geometry" />
+          <mxGeometry x="54" y="746" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U7cklLRFnM9qiptKr7Qg-16" value="11. 选择一个epg program&lt;br&gt;12. 点击save，进入元数据导入流程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="U7cklLRFnM9qiptKr7Qg-15" parent="XYJXyiHoGVRGUh7J4csI-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="59" y="730" as="sourcePoint" />
+            <mxPoint x="59" y="712" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="89" y="730" />
+              <mxPoint x="89" y="712" />
             </Array>
           </mxGeometry>
         </mxCell>
