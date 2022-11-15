@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T07:05:46.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="FaIOgImxvCW3gBkA4Krv" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-15T07:21:24.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="iNTXsZLROLVwtMOK8IbF" version="20.5.3" type="github" pages="6">
   <diagram name="1.播放源方式配置及查询" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -171,6 +171,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pqXez1qAbr24mOM16jvJ-32" value="选择epg搜索范围" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="740" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pqXez1qAbr24mOM16jvJ-53" value="EPG与元数据建立关联" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="740" height="580" as="geometry" />
+        </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-1" value="vod-portal-front" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="84" y="80" width="120" height="1330" as="geometry" />
         </mxCell>
@@ -215,7 +221,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-9" value="live-portal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="764" y="80" width="120" height="1330" as="geometry" />
+          <mxGeometry x="700" y="80" width="120" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pqXez1qAbr24mOM16jvJ-9" vertex="1">
           <mxGeometry x="56" y="542" width="10" height="50" as="geometry" />
@@ -223,11 +229,14 @@
         <mxCell id="pqXez1qAbr24mOM16jvJ-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pqXez1qAbr24mOM16jvJ-9" vertex="1">
           <mxGeometry x="56" y="717" width="10" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="pqXez1qAbr24mOM16jvJ-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="pqXez1qAbr24mOM16jvJ-9" vertex="1">
+          <mxGeometry x="56" y="225" width="10" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-12" value="前置条件" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="140" width="850" height="80" as="geometry" />
+          <mxGeometry x="80" y="140" width="740" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-13" value="1.VNO支持live-epg播放源方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="165" width="690" height="30" as="geometry" />
+          <mxGeometry x="150" y="165" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="459" y="290" width="10" height="80" as="geometry" />
@@ -241,9 +250,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140.3499999999999" y="498.29999999999995" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pqXez1qAbr24mOM16jvJ-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="819" y="302" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-27" value="2.根据筛选条件查询epg列表信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.9;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pqXez1qAbr24mOM16jvJ-23" target="pqXez1qAbr24mOM16jvJ-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -264,9 +270,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="389" y="486" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pqXez1qAbr24mOM16jvJ-32" value="选择epg搜索范围" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;" parent="1" vertex="1">
-          <mxGeometry x="80" y="250" width="850" height="260" as="geometry" />
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-34" value="1.根据搜索范围的epgId列表，&lt;br&gt;输入epgName查询epg列表信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="pqXez1qAbr24mOM16jvJ-33" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -308,18 +311,15 @@
             <mxPoint x="463.5" y="797" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pqXez1qAbr24mOM16jvJ-49" value="9.点击某个epg program，带入相应的epg program Name&lt;br&gt;查询movie&amp;amp;series信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="pqXez1qAbr24mOM16jvJ-48" edge="1">
+        <mxCell id="pqXez1qAbr24mOM16jvJ-49" value="9.点击某个epg program，带入相应的epg program Name&lt;br&gt;选择已有数据&amp;amp;peliplat&amp;amp;Tmdb查询movie&amp;amp;series信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" target="pqXez1qAbr24mOM16jvJ-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="143.5" y="911" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pqXez1qAbr24mOM16jvJ-50" value="10.根据name查询pp&amp;amp;tmdb的元数据信息并返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pqXez1qAbr24mOM16jvJ-48" target="pqXez1qAbr24mOM16jvJ-1" edge="1">
+        <mxCell id="pqXez1qAbr24mOM16jvJ-50" value="10.根据name&amp;amp;gooseId查询元数据信息并返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="pqXez1qAbr24mOM16jvJ-48" target="pqXez1qAbr24mOM16jvJ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="389" y="987" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pqXez1qAbr24mOM16jvJ-53" value="EPG与元数据建立关联" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;" parent="1" vertex="1">
-          <mxGeometry x="80" y="540" width="850" height="580" as="geometry" />
         </mxCell>
         <mxCell id="pqXez1qAbr24mOM16jvJ-55" value="12.提交批量导入" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="pqXez1qAbr24mOM16jvJ-1" target="pqXez1qAbr24mOM16jvJ-54" edge="1">
           <mxGeometry relative="1" as="geometry">
