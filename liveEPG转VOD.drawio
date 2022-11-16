@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T06:11:18.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="bG_OyAO_R_JOgpl6sHgD" version="20.5.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-11-16T06:18:40.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="UicWGMfraphyHJ1-H-A-" version="20.5.3" type="github" pages="7">
   <diagram name="1.播放源方式配置及查询" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -683,7 +683,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyVBCRTCXZZ7DYPYhBgR-6" value="点播流媒体播放" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="AyVBCRTCXZZ7DYPYhBgR-6" value="&lt;b&gt;点播&lt;/b&gt;流媒体播放" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="490" y="305" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AyVBCRTCXZZ7DYPYhBgR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AyVBCRTCXZZ7DYPYhBgR-7">
@@ -706,7 +706,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyVBCRTCXZZ7DYPYhBgR-8" value="直播流媒体" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="AyVBCRTCXZZ7DYPYhBgR-8" value="&lt;b&gt;直播&lt;/b&gt;流媒体播放" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="490" y="525" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AyVBCRTCXZZ7DYPYhBgR-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
