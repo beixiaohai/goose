@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T08:39:10.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.8.5" etag="tDydYjx7PGNS8CvlaWjU" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-16T08:58:27.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.8.5" etag="xmBBbvI4g_bFZQZNc_XK" type="github" pages="2">
   <diagram id="Hg2Uol-qH3B6pOBQ33_o" name="终端用户获取元数据信息">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
       <root>
@@ -42,6 +42,143 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-1" value="live-portal前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="81" width="120" height="719" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-2" value="live-portal后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="81" width="120" height="719" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1IyaX_54ZMc1CSLx12P6-2">
+          <mxGeometry x="55" y="117" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-3" value="vod-portal后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="81" width="120" height="719" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry x="55" y="136" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-38" value="7.保存LAC信息至数据库" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="1IyaX_54ZMc1CSLx12P6-37" parent="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="419" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry x="60" y="439" width="10" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry x="55" y="529" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-40" value="8.根据数据中LAC信息计算每个&lt;br&gt;区域码的匹配规则，并存入redis" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="1IyaX_54ZMc1CSLx12P6-39" parent="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="509" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="509" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-4" value="search" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="81" width="125" height="719" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1IyaX_54ZMc1CSLx12P6-4">
+          <mxGeometry x="55" y="589" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1IyaX_54ZMc1CSLx12P6-6" target="1IyaX_54ZMc1CSLx12P6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-6" value="VNO" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="1IyaX_54ZMc1CSLx12P6-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.5" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-8" value="1.获取vno-LAC列表信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="1IyaX_54ZMc1CSLx12P6-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.5" y="198.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-12" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="1IyaX_54ZMc1CSLx12P6-10" parent="1" target="1IyaX_54ZMc1CSLx12P6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-11" value="2.获取vno LAC列表信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="1IyaX_54ZMc1CSLx12P6-10" parent="1" source="1IyaX_54ZMc1CSLx12P6-2">
+          <mxGeometry x="0.0021" relative="1" as="geometry">
+            <mxPoint x="705" y="217" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="534" y="340" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="774" y="359" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="1IyaX_54ZMc1CSLx12P6-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298.5" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-28" value="3.获取vno-LAC详细信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="1IyaX_54ZMc1CSLx12P6-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298.5" y="340.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="1IyaX_54ZMc1CSLx12P6-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538.5" y="400.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-30" value="4.获取vno LAC详细信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="1IyaX_54ZMc1CSLx12P6-26">
+          <mxGeometry x="0.0021" relative="1" as="geometry">
+            <mxPoint x="538.5" y="359" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="535" y="469" width="10" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="775" y="488" width="10" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-33" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="1IyaX_54ZMc1CSLx12P6-31" target="1IyaX_54ZMc1CSLx12P6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.5" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-34" value="5.变更vno-LAC信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="1IyaX_54ZMc1CSLx12P6-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.5" y="469" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-35" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="1IyaX_54ZMc1CSLx12P6-32" target="1IyaX_54ZMc1CSLx12P6-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539.5" y="529.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-36" value="6.获取vno LAC详细信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="1IyaX_54ZMc1CSLx12P6-32">
+          <mxGeometry x="0.0021" relative="1" as="geometry">
+            <mxPoint x="539.5" y="488" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-42" value="9.同步LAC配置至search服务器" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="1IyaX_54ZMc1CSLx12P6-41" parent="1" source="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="1IyaX_54ZMc1CSLx12P6-41" parent="1" target="1IyaX_54ZMc1CSLx12P6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="746" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IyaX_54ZMc1CSLx12P6-49" value="将配置规则存入redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="695" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
