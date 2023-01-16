@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T08:31:57.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.8.5" etag="w5hH-4F2d5UD3RUmAZdx" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T08:39:10.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.8.5" etag="tDydYjx7PGNS8CvlaWjU" type="github" pages="2">
   <diagram id="Hg2Uol-qH3B6pOBQ33_o" name="终端用户获取元数据信息">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ljVgEYi33NW6QD3g7wLq-1" value="APP端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="120" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ljVgEYi33NW6QD3g7wLq-2" value="VOD-EndUser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-2" value="VOD-EndUser &amp;amp; search" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="120" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="ljVgEYi33NW6QD3g7wLq-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ljVgEYi33NW6QD3g7wLq-2">
@@ -34,6 +34,14 @@
             <mxPoint x="359.5" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jUPKdxCEbPINULNCAecJ" name="VNO配置LAC规则">
+    <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
