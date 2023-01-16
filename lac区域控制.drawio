@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T05:15:22.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.5.3" etag="ed7NpMUwc_v8cBntcpv5" type="github"><diagram id="EaMXGZ3SwuCXDh_bMy28">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-16T08:31:57.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.8.5" etag="w5hH-4F2d5UD3RUmAZdx" type="github">
+  <diagram id="Hg2Uol-qH3B6pOBQ33_o" name="终端用户获取元数据信息">
+    <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1827" pageHeight="1569" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-1" value="APP端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-2" value="VOD-EndUser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ljVgEYi33NW6QD3g7wLq-2">
+          <mxGeometry x="45" y="91" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ljVgEYi33NW6QD3g7wLq-2">
+          <mxGeometry x="50" y="161" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-7" value="1.根据请求的IP地址计算所对应的区域码&lt;br&gt;2.根据区域码获取区域码对应的LAC策略&lt;br&gt;3.在原查询条件的基础上，添加LAC过滤规则，查询元数据信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="ljVgEYi33NW6QD3g7wLq-6" parent="ljVgEYi33NW6QD3g7wLq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="111" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-4" value="1.获取元数据信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="ljVgEYi33NW6QD3g7wLq-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.5" y="211.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ljVgEYi33NW6QD3g7wLq-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="ljVgEYi33NW6QD3g7wLq-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.5" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
