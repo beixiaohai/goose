@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T07:42:58.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="x_CCyIB2ZYKo1t1aAk-e" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T07:44:57.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_rA3CxrP8DoHZMVtRe7z" version="23.1.1" type="github">
   <diagram name="/api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -506,6 +506,17 @@
         <mxCell id="KPomLaZq1dCTuhymzl-I-117" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="KPomLaZq1dCTuhymzl-I-111">
           <mxGeometry x="75" y="3010" width="10" height="350" as="geometry" />
         </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-139" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="KPomLaZq1dCTuhymzl-I-111">
+          <mxGeometry x="80" y="3310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-140" value="store&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;vms_user_task&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="KPomLaZq1dCTuhymzl-I-139" parent="KPomLaZq1dCTuhymzl-I-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="3290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="3320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-114" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;1. 远程调用&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;/api/cloud/admin/autoAdd/v1&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(6, 125, 23); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 51);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="1210" y="2950" width="350" height="40" as="geometry" />
         </mxCell>
@@ -582,6 +593,9 @@
             <mxPoint x="2723" y="3343" as="targetPoint" />
             <mxPoint x="2993" y="3343" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-138" value="&lt;span style=&quot;background-color: rgb(51, 255, 51);&quot;&gt;远程调用&lt;br&gt;/api/cloud/migrate&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="3230" width="230" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
