@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T03:26:58.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="PHnmAcJ9FDucMNXKXQK2" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T03:27:07.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="A7c9bC7WFRm4aMWkB96_" version="23.1.1" type="github">
   <diagram name="/api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-32" value="扫码登录getIsScanCode" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1470" width="1260" height="240" as="geometry" />
+          <mxGeometry x="80" y="1470" width="1260" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
