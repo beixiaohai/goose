@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T05:59:28.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="J1RemNxC1QJw5icWTpVz" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T06:15:52.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MIuEZw-Ch78yDRS6cFeX" version="23.1.1" type="github">
   <diagram name="/api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="50NCEUKgjj1wmTMVywzA-24" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;EClientType&lt;/pre&gt;" style="shape=umlFrame;html=1;pointerEvents=0;width=100;height=30;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="384" width="2010" height="2276" as="geometry" />
+          <mxGeometry x="40" y="384" width="2100" height="2276" as="geometry" />
         </mxCell>
         <mxCell id="50NCEUKgjj1wmTMVywzA-29" value="isWeb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="462" width="60" height="30" as="geometry" />
@@ -240,21 +240,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-40" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;CommonSessionApi&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="102" width="160" height="2328" as="geometry" />
+          <mxGeometry x="1800" y="80" width="160" height="2348" as="geometry" />
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="KPomLaZq1dCTuhymzl-I-40">
           <mxGeometry x="75" y="1590" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="KPomLaZq1dCTuhymzl-I-40">
-          <mxGeometry x="75" y="1725" width="10" height="45" as="geometry" />
+          <mxGeometry x="75" y="1745" width="10" height="45" as="geometry" />
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-44" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1605" y="1721" as="targetPoint" />
-            <mxPoint x="1875" y="1721" as="sourcePoint" />
+            <mxPoint x="1605" y="1700" as="targetPoint" />
+            <mxPoint x="1875" y="1700" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPomLaZq1dCTuhymzl-I-43" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;checkSession，远程调用&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;vod.commonservice.api.host的&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;/api/session/checkSession/v1&lt;/span&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="KPomLaZq1dCTuhymzl-I-42" parent="1" source="KPomLaZq1dCTuhymzl-I-37">
+        <mxCell id="KPomLaZq1dCTuhymzl-I-43" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;checkSession&lt;/span&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="KPomLaZq1dCTuhymzl-I-42" parent="1" source="KPomLaZq1dCTuhymzl-I-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1610" y="1697" as="sourcePoint" />
           </mxGeometry>
@@ -269,15 +269,74 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPomLaZq1dCTuhymzl-I-46" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;createSession，远程调用&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;vod.commonservice.api.host的&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;/api/session/createSession/v1&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="KPomLaZq1dCTuhymzl-I-45" parent="1">
+        <mxCell id="KPomLaZq1dCTuhymzl-I-46" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;createSession&lt;/span&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="KPomLaZq1dCTuhymzl-I-45" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1605" y="1832" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-59" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KPomLaZq1dCTuhymzl-I-57">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="680" as="sourcePoint" />
             <mxPoint x="650" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-60" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;session.getErrCode&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;() &lt;/span&gt;&lt;/pre&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1890" width="700" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-61" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="1960" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1940" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-65" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;kickOutSession&lt;/pre&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="KPomLaZq1dCTuhymzl-I-64" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1605" y="1920" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1635" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1875" y="1986" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-67" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;offlineSession&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="KPomLaZq1dCTuhymzl-I-66" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="1991" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-68" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="2015" as="targetPoint" />
+            <mxPoint x="1875" y="2015" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-69" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;远程调用/api/session/offlineSession/v1&lt;/span&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1900" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-70" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.467;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KPomLaZq1dCTuhymzl-I-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1780" y="1990" as="sourcePoint" />
+            <mxPoint x="1830" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-71" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;远程调用/api/session/checkSession/v1&lt;/span&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1570" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-72" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KPomLaZq1dCTuhymzl-I-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1790" y="1670" as="sourcePoint" />
+            <mxPoint x="1830" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-73" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 153);&quot;&gt;远程调用/api/session/createSession/v1&lt;/span&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1730" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KPomLaZq1dCTuhymzl-I-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KPomLaZq1dCTuhymzl-I-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1750" y="1830" as="sourcePoint" />
+            <mxPoint x="1800" y="1770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
