@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T05:12:27.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NvM7_YpkI62bOVax1Tbo" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-05T05:13:04.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="e11GtwqQ7PPIh8grANQb" version="23.1.1" type="github" pages="2">
   <diagram name="登录 /api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -596,6 +596,9 @@
         </mxCell>
         <mxCell id="KPomLaZq1dCTuhymzl-I-138" value="&lt;span style=&quot;background-color: rgb(51, 255, 51);&quot;&gt;远程调用&lt;br&gt;/api/cloud/migrate&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="2470" y="3230" width="230" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="PNoT6S8gDKBctb07NlEO-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;/api/uc/login/v2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="18" y="28" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
