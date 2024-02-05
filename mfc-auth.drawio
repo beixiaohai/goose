@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T02:50:49.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="5JtCXClga9zKHPgXpxfu" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-05T02:55:49.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mzhUsmZzLGMj2nj5ZHht" version="23.1.1" type="github" pages="2">
   <diagram name="登录 /api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -905,7 +905,7 @@
           <mxGeometry x="155" y="1938" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-34" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;BillApi&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1560" y="40" width="160" height="2660" as="geometry" />
+          <mxGeometry x="1560" y="40" width="160" height="2800" as="geometry" />
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="wZNioZKBh5sx2Xt1lE5V-34">
           <mxGeometry x="75" y="2010" width="10" height="80" as="geometry" />
@@ -975,7 +975,7 @@
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-49" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Courier New&#39;,monospace;font-size:9.8pt;&quot;&gt;判断是否能够转移盒子上的有效期到&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;EMAIL&lt;/span&gt;&lt;span style=&quot;color:#8c8c8c;font-style:italic;&quot;&gt;，或账号卡账号上&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="764" y="2380" width="376" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wZNioZKBh5sx2Xt1lE5V-50" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;mac&lt;span style=&quot;color:#8c8c8c;font-style:italic;font-family:&#39;Courier New&#39;,monospace;&quot;&gt;绑定账号卡或&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;最终的套餐不是月套餐&lt;/pre&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=50;align=left;" vertex="1" parent="1">
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-50" value="&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 204, 204);&quot; face=&quot;Georgia&quot; color=&quot;#080808&quot;&gt;mac绑定账号卡或&lt;br&gt;最终的套餐不是月套餐&lt;/font&gt;&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#080808&quot;&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=50;align=left;" vertex="1" parent="1">
           <mxGeometry x="340" y="2470" width="1360" height="230" as="geometry" />
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -1006,6 +1006,23 @@
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-57" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="2628" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-63" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1635" y="2620" width="10" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-64" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;transferRenewal续订转移&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-63" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="2625" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-65" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="2646.5" as="targetPoint" />
+            <mxPoint x="1635" y="2646.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-66" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;远程调用api/job/transfer/renewinfo&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="2550" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
