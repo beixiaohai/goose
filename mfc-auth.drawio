@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T05:09:47.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rSS7hadB3VHNT9FRbLfs" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-05T05:10:20.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cLisA0LGGlQX9f4Td5-4" version="23.1.1" type="github" pages="2">
   <diagram name="登录 /api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1117,7 +1117,7 @@
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-84" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(51, 255, 51);&quot;&gt;远程调用api/billsubscription/getRenewal/v1&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="2950" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wZNioZKBh5sx2Xt1lE5V-96" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;7bindActivity&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-95" parent="1">
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-96" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;7. bindActivity&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-95" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="245" y="3662" as="sourcePoint" />
           </mxGeometry>
@@ -1136,7 +1136,7 @@
             <mxPoint x="515" y="3581" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wZNioZKBh5sx2Xt1lE5V-100" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getVendorGuideConfig &lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-99" parent="1">
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-100" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;6. getVendorGuideConfig &lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-99" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="245" y="3534" as="sourcePoint" />
           </mxGeometry>
