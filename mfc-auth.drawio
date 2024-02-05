@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T11:53:10.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="iy4Rd604vUb6ZurXSBjQ" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-05T01:13:36.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="OjPumw5WeXC4D5jEM53K" version="23.1.1" type="github" pages="2">
   <diagram name="登录 /api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -606,16 +606,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ba3nJv0sfyCqZ41mfun3-1" value="AccountController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="160" height="1360" as="geometry" />
+          <mxGeometry x="160" y="40" width="160" height="1590" as="geometry" />
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ba3nJv0sfyCqZ41mfun3-1">
           <mxGeometry x="75" y="70" width="10" height="880" as="geometry" />
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-2" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;AccountService&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="160" height="720" as="geometry" />
+          <mxGeometry x="440" y="40" width="160" height="1590" as="geometry" />
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ba3nJv0sfyCqZ41mfun3-2">
-          <mxGeometry x="75" y="120" width="10" height="380" as="geometry" />
+          <mxGeometry x="75" y="120" width="10" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ba3nJv0sfyCqZ41mfun3-2">
           <mxGeometry x="80" y="160" width="10" height="40" as="geometry" />
@@ -628,11 +628,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ba3nJv0sfyCqZ41mfun3-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ba3nJv0sfyCqZ41mfun3-2">
-          <mxGeometry x="75" y="540" width="10" height="80" as="geometry" />
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ba3nJv0sfyCqZ41mfun3-2">
+          <mxGeometry x="80" y="520" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-2" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getAccountPasswordByLoginId&lt;/pre&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="NF1pwUIlhMji9VGgUkYN-1" parent="ba3nJv0sfyCqZ41mfun3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-3" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;loginIdTypeInitService&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="720" y="40" width="160" height="720" as="geometry" />
+          <mxGeometry x="720" y="40" width="160" height="1620" as="geometry" />
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ba3nJv0sfyCqZ41mfun3-3">
           <mxGeometry x="75" y="220" width="10" height="260" as="geometry" />
@@ -676,13 +684,8 @@
             <mxPoint x="445" y="165" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ba3nJv0sfyCqZ41mfun3-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="ba3nJv0sfyCqZ41mfun3-5" parent="1" target="ba3nJv0sfyCqZ41mfun3-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="235" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ba3nJv0sfyCqZ41mfun3-8" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;loginIdTypeInitService&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1000" y="40" width="160" height="720" as="geometry" />
+        <mxCell id="ba3nJv0sfyCqZ41mfun3-8" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;CCApi&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="160" height="1560" as="geometry" />
         </mxCell>
         <mxCell id="ba3nJv0sfyCqZ41mfun3-12" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;initLoginIdType(loginId)&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ba3nJv0sfyCqZ41mfun3-11" parent="1" source="ba3nJv0sfyCqZ41mfun3-5">
           <mxGeometry relative="1" as="geometry">
@@ -704,15 +707,72 @@
         <mxCell id="ba3nJv0sfyCqZ41mfun3-22" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;get account_info by accountId&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;list account_password by loginId&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 153);&quot;&gt;update account_password.login_id_type&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="830" y="360" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ba3nJv0sfyCqZ41mfun3-24" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;2.getAccountPasswordByLoginId&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ba3nJv0sfyCqZ41mfun3-23" parent="1" source="ba3nJv0sfyCqZ41mfun3-26">
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-3" value="是否账号卡" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=125;height=30;" vertex="1" parent="1">
+          <mxGeometry x="375" y="620" width="1055" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="675" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-6" value="&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="NF1pwUIlhMji9VGgUkYN-5" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="580" as="sourcePoint" />
+            <mxPoint x="525" y="655" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="555" y="685" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ba3nJv0sfyCqZ41mfun3-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="ba3nJv0sfyCqZ41mfun3-23" parent="1" target="ba3nJv0sfyCqZ41mfun3-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="655" as="targetPoint" />
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-7" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getAccountInfoDdo&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NF1pwUIlhMji9VGgUkYN-6">
+          <mxGeometry x="0.0588" y="-1" relative="1" as="geometry">
+            <mxPoint x="66" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-8" value="account&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="740" width="870" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-9" value="账号不存在&lt;br&gt;或者未激活" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="793" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="799" width="10" height="391" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-11" value="&amp;nbsp;activeAccountCard激活" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="NF1pwUIlhMji9VGgUkYN-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="779" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="555" y="809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;store&amp;nbsp;account_info&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;store account_service_info&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;store account_password&lt;/span&gt;&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="990" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-14" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;CCApi&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1280" y="40" width="160" height="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1075" y="833" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-16" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;activateAccountCard&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="NF1pwUIlhMji9VGgUkYN-15" parent="1" source="NF1pwUIlhMji9VGgUkYN-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="838" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-17" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;accountCard&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="NF1pwUIlhMji9VGgUkYN-15" parent="1" target="NF1pwUIlhMji9VGgUkYN-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1005" y="908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-18" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;远程调用/api/accountcard/activate/v1&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="864" y="755" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0;entryDx=15;entryDy=60;entryPerimeter=0;" edge="1" parent="1" target="NF1pwUIlhMji9VGgUkYN-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="970" as="sourcePoint" />
+            <mxPoint x="580" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NF1pwUIlhMji9VGgUkYN-20" value="&lt;span style=&quot;background-color: rgb(255, 0, 0);&quot;&gt;此处未对accountCard返回值做任何有效判断，是否符合预期？&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="913" width="196" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
