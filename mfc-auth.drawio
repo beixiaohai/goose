@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T02:55:49.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mzhUsmZzLGMj2nj5ZHht" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-05T02:58:25.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="q0EKCINmwvwTIKex9rfZ" version="23.1.1" type="github" pages="2">
   <diagram name="登录 /api/uc/login/v2" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -908,7 +908,7 @@
           <mxGeometry x="1560" y="40" width="160" height="2800" as="geometry" />
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="wZNioZKBh5sx2Xt1lE5V-34">
-          <mxGeometry x="75" y="2010" width="10" height="80" as="geometry" />
+          <mxGeometry x="75" y="2010" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-36" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;getRenewal&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-35" parent="1" source="wZNioZKBh5sx2Xt1lE5V-25">
           <mxGeometry relative="1" as="geometry">
@@ -1023,6 +1023,28 @@
         </mxCell>
         <mxCell id="wZNioZKBh5sx2Xt1lE5V-66" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;远程调用api/job/transfer/renewinfo&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1180" y="2550" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="530" y="2730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-68" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;logBizAction，&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;store mfc_user_biz_log&lt;/span&gt;&lt;/pre&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-67" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="2710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="565" y="2740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-69" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="2130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wZNioZKBh5sx2Xt1lE5V-70" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;logBizAction，store mfc_user_biz_log&lt;/pre&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="wZNioZKBh5sx2Xt1lE5V-69" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="2110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="555" y="2140" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
