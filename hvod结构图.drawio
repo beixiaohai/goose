@@ -62,7 +62,7 @@
           <mxGeometry x="1083" y="986" width="167" height="60" as="geometry" />
         </mxCell>
         <mxCell id="46TJWJkHYhD4SANcXY3S-28" value="{brand}_account_db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-118" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="-111" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="46TJWJkHYhD4SANcXY3S-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="46TJWJkHYhD4SANcXY3S-8" target="46TJWJkHYhD4SANcXY3S-28">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="46TJWJkHYhD4SANcXY3S-30" value="account_redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-39" width="120" height="61" as="geometry" />
+          <mxGeometry x="1510" y="-35" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="46TJWJkHYhD4SANcXY3S-38" value="membersit-ELB" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1510" y="46" width="120" height="40" as="geometry" />
